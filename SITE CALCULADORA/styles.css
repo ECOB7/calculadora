@@ -1,0 +1,84 @@
+/* Background Style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/dcwj1k0-91b7d01d-d879-42fb-a095-180e9c2b8240.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg0ZGMxM2I3LWEyZTctNGI0NS04M2VjLTMxMWU3MmU4MjkwMFwvZGN3ajFrMC05MWI3ZDAxZC1kODc5LTQyZmItYTA5NS0xODBlOWMyYjgyNDAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OOJw73XlLbAewfR0C7Vuy5E8rVwKYC-36YLEs5oN6lA') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* Calculator Container */
+.calculator {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  width: 300px;
+}
+
+/* Display Style */
+.display {
+  background: #000;
+  color: #fff;
+  font-size: 2em;
+  text-align: right;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+/* Button Grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Buttons Style */
+.btn {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background: #333;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+/* Operator Buttons */
+.operator {
+  background: #ff8000;
+}
+
+.operator:hover {
+  background: #ff9900;
+}
+
+/* Equal Button */
+.equal {
+  grid-column: span 2;
+  background: #ff8000;
+}
+
+.equal:hover {
+  background: #ff9900;
+}
+
+/* Clear Button */
+.clear {
+  background: #d32f2f;
+}
+
+.clear:hover {
+  background: #f44336;
+}
